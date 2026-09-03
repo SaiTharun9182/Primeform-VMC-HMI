@@ -1,7 +1,7 @@
 -- Demo operator account
 INSERT INTO users (username, password_hash)
 VALUES (
-    'primeform-demo',
+    'primeform-demo-saitharun',
     '$2b$10$HRZ5wQqWHakKnu3dKyvTm.3d1dHUQfwSfJmLGKJQnlmBoHsg8iar2'
 )
 ON CONFLICT (username) DO NOTHING;
