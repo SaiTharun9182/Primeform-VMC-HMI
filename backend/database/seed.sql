@@ -94,19 +94,19 @@ CROSS JOIN (
         (
             1,
             'T01',
-            'Ø50 mm Face Mill',
+            '50 mm Face Mill',
             'AH204-VMC Rev 03'
         ),
         (
             2,
             'T02',
-            'Ø10 mm Carbide Drill',
+            '10 mm Carbide Drill',
             'AH204-VMC Rev 03'
         ),
         (
             3,
             'T03',
-            'Ø12 mm Carbide End Mill',
+            '12 mm Carbide End Mill',
             'AH204-VMC Rev 03'
         )
 ) AS v(
