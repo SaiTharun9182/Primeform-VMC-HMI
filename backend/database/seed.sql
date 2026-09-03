@@ -14,7 +14,7 @@ SELECT
     'POWER_ON',
     'READY'
 FROM users
-WHERE username = 'primeform-demo'
+WHERE username = 'primeform-demo-saitharun'
   AND NOT EXISTS (
       SELECT 1
       FROM hmi_sessions hs
